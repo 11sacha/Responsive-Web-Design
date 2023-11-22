@@ -1,0 +1,83 @@
+html {
+    background-color: #102A4E;
+    color: white
+  }
+  
+img {
+  width: 110px;
+  position: absolute;
+  top: 15px;
+  right: 295px;
+}
+
+  #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px; /* Set the width of your navbar */
+      height: 100vh; /* Full height of the viewport */
+      background-color: #183F66; /* Set your desired background color */
+      color: #fff; /* Set the text color */
+      padding-top: 20px; /* Adjust as needed */
+  }
+  
+  #navbar ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  #navbar li {
+      padding: 10px;
+  }
+  
+  #navbar a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  nav {
+      display: block;
+      padding-left: 8;
+      font-size: 19px;
+  }
+  
+  #nav_header {
+    padding-left: 8px
+  }
+  
+  #main-doc {
+      position: absolute;
+      margin-left: 310px;
+      padding: 20px;
+      margin-bottom: 110px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px; 
+    }
+    .header {
+      display: none; 
+    }
+  
+  }
+  
+  code {
+    background-color: black;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+  }
+  
+  a {
+    color: #CDAD00;
+  }
+  
+  a:hover {
+    color: #FFD700;
+  }
+  
+  h3 {
+    color: #FFD700;
+    text-decoration: underline;
+  }
