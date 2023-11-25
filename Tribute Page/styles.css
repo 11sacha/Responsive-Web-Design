@@ -1,0 +1,63 @@
+body {
+    background-color: #FDF5E6;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  }
+  
+  img {
+    display: block;
+  }
+  /*
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    align-items: center;
+  }*/
+
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 80%;  /* Adjust the percentage to your preference */
+    max-height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline display */
+    margin: auto; /* Center the image horizontally */
+  }
+
+  #tribute-info {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 15;
+  text-align: center;
+  }
+  
+  ul > li {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-align: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+  
+  #img-caption {
+    font-style: italic;
+  }
+
+  .centered-list {
+    display: inline-block; /* Make the container inline-block */
+    text-align: left; /* Align list items to the left within the container */
+}
