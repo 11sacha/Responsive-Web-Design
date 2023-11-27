@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey</h1>
+    <p id="description">User information survey</p>
+
+    <form id="survey-form" method="post">
+
+      <fieldset id="first">
+        <div class="form-group">
+          <label for="name" id="name-label">Name: </label><br>
+          <input id="name" type="text" required placeholder="Enter your name"/><br>
+        </div>
+        <div class="form-group">  
+          <label for="email" id="email-label">E-mail: </label><br>
+          <input id="email" type="email" required placeholder="Enter your E-mail"/><br>
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age: </label><br>
+          <input id="number" type="number" pattern="[0-9]" min="11" max="120" placeholder="Enter your age"/><br>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>What is your gender?</legend>
+        <label for="male"><input id="male" name="cat" type="radio" value="male" checked/>Male</label><br>
+        <label for="female"><input id="female" name="cat" type="radio" value="female" />Female</label><br>
+      </fieldset>
+      <fieldset>  
+        <legend>What is your educational background?</legend>
+        <label for="school"><input id="school" name="school" type="radio" value="male" checked/>High School</label><br>
+        <label for="uni"><input id="uni" name="school" type="radio" value="female" />University</label><br>
+        <label for="dropu"><input id="dropu" name="school" type="radio" value="dropu" />Collegue dropout</label><br>
+        <label for="uni"><input id="uni" name="school" type="radio" value="female" />High School dropout</label><br>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown">Where are you coding from?<br>
+         <select id="dropdown">
+            <option value="1">(select one)</option>
+            <option value="2">North America</option>
+            <option value="3">South America</option>
+            <option value="4">Europe</option>
+            <option value="5">Asia</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What area are you interested in?</legend>
+        <label for="full"><input id="full" value="full" type="checkbox" class="inline" checked/>Full Stack Dev</label><br>
+        <label for="front"><input id="front" value="front" type="checkbox" class="inline" />Front-End Dev</label><br>
+        <label for="back"><input id="back" value="back" type="checkbox" class="inline" />Back-End Dev</label><br>
+        <label for="ds"><input id="ds" value="ds" type="checkbox" class="inline" />Data Science</label><br>
+        <label for="other"><input id="other" value="other" type="checkbox" class="inline" />Other</label><br>
+      </fieldset>
+
+      <fieldset>
+        <label for="comments" id="coment">Additional coments: 
+          <textarea id="coments" name="coments" rows="3" cols="30"></textarea>
+        </label><br>
+      </fieldset>
+
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
