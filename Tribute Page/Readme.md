@@ -1,2 +1,2 @@
- [Visit Tribute Page](https://tribute-page-goat.netlify.app)
+ Visit [Tribute Page](https://tribute-page-goat.netlify.app)
 
