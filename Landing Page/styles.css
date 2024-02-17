@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(255, 255, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 60vw;
+}
+
+#header-img {
+    width: 320px;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+#title {
+    font-size: 2em;
+    color: rgb(96, 96, 96);
+}
+
+#nav-bar {
+    font-weight: 400;
+    width: 30vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+ #search, #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+ #email {
+    display: flex;
+    width: 230px;
+    height: 20px;
+    margin-bottom: 1px;
+} 
+
+#submit {
+    display: flex;
+    height: 40px;
+    background-color: rgb(88, 88, 88);
+    margin-top: 2px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20%;
+}
+
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    max-width: 800px;
+    color: rgb(96, 96, 96);
+}
+
+.description {
+    font-size: 1.15em;
+}
+
+.media {
+    margin-top: 30px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(96, 96, 96);
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border-radius: 20%;
+}
+
+#contact {
+    color: rgb(88, 88, 88);
+    font-size: 1.2em;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
